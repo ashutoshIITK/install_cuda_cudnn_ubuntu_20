@@ -24,7 +24,9 @@ sudo apt autoremove
 <https://www.nvidia.com/download/index.aspx?lang=en-us><br>
     In my case, for example, I downloaded `NVIDIA-Linux-x86_64-470.82.01.run`<br>
     Run the following command:<br>
-    `sudo sh NVIDIA-Linux-x86_64-470.82.01.run --no-x-check` <br>
+    ```bash
+    sudo sh NVIDIA-Linux-x86_64-470.82.01.run --no-x-check
+    ``` <br>
     Replace `NVIDIA-Linux-*` with the file you downloaded.
 
 - You just need to approve and accept the prompts. Installation is pretty straightforward.
@@ -88,11 +90,15 @@ sudo chmod a+r /usr/local/cuda-11.4/lib64/libcudnn*
 
 - Execute `nvidia-smi` and `nvcc --version` to see if everything is working as expected and the CUDA versions match for them.
 
-`nvidia-smi`
+```bash
+nvidia-smi
+```
 
 <img src="media/nvidia-smi.png" width="auto" height="auto">
 
-`nvcc --version`
+```bash
+nvcc --version
+```
 <img src="media/nvcc.png" width="auto" height="auto">
 
 ## Issues
