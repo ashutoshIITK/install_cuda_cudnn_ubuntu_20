@@ -33,11 +33,15 @@ sudo apt autoremove
 
 - In this tutorial, I am going to install `CUDA 11.4.3` (Although 11.5 is the latest one at the time of writing this tutorial).
 
-`wget https://developer.download.nvidia.com/compute/cuda/11.4.3/local_installers/cuda_11.4.3_470.82.01_linux.run`
+```bash
+wget https://developer.download.nvidia.com/compute/cuda/11.4.3/local_installers/cuda_11.4.3_470.82.01_linux.run
+```
 
 - After running the below command, make sure that you uncheck NVIDIA Driver option (as shown below) as we have already installed it in the previous step.
 
-`sudo sh cuda_11.4.3_470.82.01_linux.run`
+```bash
+sudo sh cuda_11.4.3_470.82.01_linux.run
+```
 
 <img src="media/skip_driver.png" width="auto" height="auto">
 
