@@ -26,7 +26,8 @@ sudo apt autoremove
     Run the following command:<br>
     ```bash
     sudo sh NVIDIA-Linux-x86_64-470.82.01.run --no-x-check
-    ``` <br>
+    ```
+ 
     Replace `NVIDIA-Linux-*` with the file you downloaded.
 
 - You just need to approve and accept the prompts. Installation is pretty straightforward.
